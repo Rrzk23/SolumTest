@@ -4,7 +4,7 @@ This repository contains three independent tasks, each self-contained and runnab
 
 - **A. Mystic Waves** — Python 3
 - **B. CargoCraft Fleet** — Python 3
-- **C. Frontend Login Page** — HTML/CSS/JS (no backend)
+- **C. Frontend Login Page** — Next.js
 
 ## Quick start
 
@@ -35,11 +35,11 @@ See the `README.md` inside each folder for details, examples, and notes.
   ```bash
   cd B && pip install -r requirements.txt
   ```
-- **C (Frontend)**: No runtime deps. Optionally:
+- **C (Frontend)**: npm 10.2.4
   ```bash
   cd C
   npm install
-  npm run dev    # http://localhost:5173
+  npm run dev    # http://localhost:3000
   ```
 
 ### Docker quick start
