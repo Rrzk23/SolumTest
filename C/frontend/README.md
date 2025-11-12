@@ -31,7 +31,7 @@ src/
 - `admin@example.com / Admin123$`
 
 ## How to Use
-1. Enter `npm run dev` and open your browser and type `http://localhost:3000/`
+1. Enter 'cp .env.example .env' then'npm install' then `npm run dev` and open your browser and type `http://localhost:3000/`
 2. Enter one of the demo emails and a valid password matching that email.
 3. If validation passes and credentials match, you’ll be redirected to `/success`.
 4. On the success page, click **Logout** to clear the session and return to the login page.
