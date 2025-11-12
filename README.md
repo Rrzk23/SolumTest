@@ -18,7 +18,8 @@ cd ../B
 python3 b.py < sample_input_b.txt
 
 # C
-cd ../C
+cd ../C/frontend
+cp .env.example .env
 npm install
 npm run dev
 ```
@@ -37,7 +38,8 @@ See the `README.md` inside each folder for details, examples, and notes.
   ```
 - **C (Frontend)**: npm 10.2.4
   ```bash
-  cd C
+  cd C/frontend
+  cp .env.example .env
   npm install
   npm run dev    # http://localhost:3000
   ```
