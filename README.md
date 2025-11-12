@@ -19,7 +19,8 @@ python3 b.py < sample_input_b.txt
 
 # C
 cd ../C
-# Open index.html in your browser (no server required)
+npm install
+npm run dev
 ```
 
 See the `README.md` inside each folder for details, examples, and notes.
