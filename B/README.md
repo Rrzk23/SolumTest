@@ -101,4 +101,4 @@ $data -join "`n" | docker run -i cargocraft-fleet
   - Write `n = 6m + r` with `r ∈ {0, 2, 4}`.
   - If `r == 0` → `m`
   - If `r == 2` → `m + 1` (replace a 6 by two 4s)
-  - If `r == 4` → `m + 1`
+  - If `r == 4` → `m + 1` (Adding a 4)
