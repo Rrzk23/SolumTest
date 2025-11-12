@@ -11,6 +11,8 @@ def solve_case(n: int):
     if n % 2 == 1 or n < 4:
         return None
 
+
+    
     # Maximum number of crafts
     if n % 4 == 0:
         mx = n // 4
@@ -23,11 +25,12 @@ def solve_case(n: int):
     # Minimum number of crafts
     m = n // 6
     r = n % 6
+
     if r == 0:
         mn = m
     elif r == 2:
         if m >= 1:
-            mn = m + 1  # replace one 6 with two 4s -> +1 craft
+            mn = m + 1  # replace one 6 with two 4s -> +1 craft in total
         else:
             return None  # n == 2 (already excluded)
     else:  # r == 4
